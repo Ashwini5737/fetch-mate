@@ -1,0 +1,18 @@
+.favorites-drawer {
+  width: 350px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.favorites-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.favorites-card {
+  border: 1px solid #eee;
+  border-radius: 8px;
+}

@@ -1,0 +1,11 @@
+.paginator-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.paginator-button {
+  min-width: 120px;
+  font-weight: bold;
+}

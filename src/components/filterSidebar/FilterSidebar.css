@@ -1,0 +1,25 @@
+.sidebar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 1rem;
+}
+
+.sidebar-section {
+  margin-bottom: 1.5rem;
+}
+
+.sidebar-buttons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.sidebar-title {
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: #333;
+}
+
+.sidebar-close {
+  color: #888;
+}
