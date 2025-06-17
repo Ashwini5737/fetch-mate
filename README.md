@@ -17,7 +17,7 @@ FetchMate is a modern, React + TypeScript web application designed to help users
   - User info is stored using React Context and localStorage.
 
 - 🐶 **Search and Filter Dogs**
-  - Filter by **Breed**, **Age Range**, **Zip Code**, or **Name Prefix**.
+  - Filter by **Breed**, **Age Range** or **Zip Code**.
   - Toggle **ascending/descending sort** by breed.
 
 - 💖 **Favorites Drawer**
@@ -66,6 +66,7 @@ npm start
 - Open http://localhost:3000 in your browser to view the app locally.
 
 ### Project Structure
+```
 src/
 │
 ├── components/          # Reusable UI (DogCard, Header, Sidebar, etc.)
@@ -74,3 +75,4 @@ src/
 ├── services/            # API helpers for login and dog search
 ├── types/               # Shared TypeScript interfaces (Dog, User)
 └── assets/              # Static files (images, icons)
+```
