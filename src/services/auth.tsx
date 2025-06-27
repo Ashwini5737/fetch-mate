@@ -1,4 +1,4 @@
-import axios from './axiosInstance';
+import axios from './interceptors';
 
 export const AuthAPI = {
   login: (name: string, email: string) =>
