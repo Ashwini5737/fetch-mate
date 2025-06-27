@@ -1,4 +1,4 @@
-import axios from './axiosInstance';
+import axios from './interceptors';
 import { Dog, MatchResponse } from '../types/dog';
 
 export const DogAPI = {
